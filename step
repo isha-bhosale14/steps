@@ -33,6 +33,12 @@ get-help get-process
 remove-item C:\foldername\filrname
 set-location C:\Windows
 
+#SSL COMMANDS
+openssl genrse
+openssl rand base64 12
+pwgen 12 10
+openssl genrsa -out xyz.txt 2048
+
 
 
 
