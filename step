@@ -22,7 +22,17 @@ git show
 get-process
 get-service
 get-childItem C:\
-new-item -itemtype file -path
+new-item -itemtype file -path C:\foldername\filename 
+rename-item C:\foldername\oldfilename  newfilename
+move-item C:\foldername\filename C:\newfoldername\filename
+copy-item C:\foldername\filename c:\anotherfolder\filename
+set-content C:\foldername\filename "Hello"
+Invoke-webrequest -uri https://www.google.com
+start-process "C:\Program Files\Internet Explorer\iexplore.exe
+get-help get-process
+remove-item C:\foldername\filrname
+set-location C:\Windows
+
 
 
 
